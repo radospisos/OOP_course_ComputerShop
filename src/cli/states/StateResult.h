@@ -1,0 +1,14 @@
+//
+// Created by Rodion Shyshkin on 18.12.2020.
+//
+
+#ifndef COMPSHOP_SRC_CLI_STATES_STATERESULT_H_
+#define COMPSHOP_SRC_CLI_STATES_STATERESULT_H_
+
+enum class StateResult {
+  SUCCESS,
+  INCORRECT_INPUT,
+  OPERATION_ERROR
+};
+
+#endif //COMPSHOP_SRC_CLI_STATES_STATERESULT_H_

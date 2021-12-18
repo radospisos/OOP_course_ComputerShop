@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum ComponentTypeProto {
+  MOTHERPLATE = 0;
+  PROCCESSOR = 1;
+  HARDDISK = 2;
+  GRAPHICSCARD = 3;
+  RAM = 4;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "component_type.proto";
+import "characteristics.proto";
+
+message ComponentProto {
+  string article = 1;
+  uint32 price = 2;
+  ComponentTypeProto type = 3;
+  CharacteristicsProto characteristics = 4;
+}

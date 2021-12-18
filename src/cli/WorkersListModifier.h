@@ -1,0 +1,15 @@
+//
+// Created by Rodion Shyshkin on 21.12.2020.
+//
+
+#ifndef COMPSHOP_SRC_CLI_WORKERSLISTMODIFIER_H_
+#define COMPSHOP_SRC_CLI_WORKERSLISTMODIFIER_H_
+
+enum class WorkersListModifier {
+  ALL,
+  SALARY_SORTED,
+  BY_NAME,
+  UNKNOWN
+};
+
+#endif //COMPSHOP_SRC_CLI_WORKERSLISTMODIFIER_H_

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+message CharacteristicsProto {
+  uint32 memory_capacity = 1;
+  uint32 frequency = 2;
+  double minimal_frequency = 3;
+  double maximal_frequency = 4;
+  uint32 cores_number = 5;
+  bool   cooler_flag = 6;
+  uint32 max_ram = 7;
+  string socket = 8;
+  uint32 capacity = 9;
+  uint32 turns_per_minute = 10;
+  bool   ssd_flag = 11;
+  uint32 core_frequency = 12;
+  uint32 memory_frequency = 13;
+  uint32 display_ports_num = 14;
+}

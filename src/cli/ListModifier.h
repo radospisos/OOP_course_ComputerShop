@@ -1,0 +1,16 @@
+//
+// Created by Rodion Shyshkin on 21.12.2020.
+//
+
+#ifndef COMPSHOP_SRC_CLI_LISTMODIFICATOR_H_
+#define COMPSHOP_SRC_CLI_LISTMODIFICATOR_H_
+
+enum class ListModifier {
+  ALL,
+  PRICE_SORTED,
+  PRICE_RANGE,
+  BY_TYPE,
+  UNKNOWN
+};
+
+#endif //COMPSHOP_SRC_CLI_LISTMODIFICATOR_H_

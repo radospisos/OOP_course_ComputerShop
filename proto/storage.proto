@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "component.proto";
+import "worker.proto";
+
+message StorageProto {
+  repeated ComponentProto components = 1;
+  repeated WorkerProto workers = 2;
+}
